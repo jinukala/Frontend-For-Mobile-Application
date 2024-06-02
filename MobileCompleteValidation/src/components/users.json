@@ -1,0 +1,66 @@
+[
+    {
+        "uniqueIdNumber": "987654321234560",
+        "dateOfBirth": "1990-12-12",
+        "emailAddress": "john@abc.com",
+        "firstName": "Smith",
+        "lastName": "John",
+        "idType": "Aadhar",
+        "customerAddress": {
+            "address_id": 1,
+            "address": "Jayanagar",
+            "city": "Bangalore",
+            "pincode": "560041",
+            "state": "Karnataka"
+        },
+        "simDetails": {
+            "simId": 1,
+            "serviceNumber": "9876543210",
+            "simNumber": "9876543212340",
+            "simStatus": "inactive"
+        },
+        "state": "Karnataka"
+    },
+    {
+        "uniqueIdNumber": "987654321234561",
+        "dateOfBirth": "1990-12-12",
+        "emailAddress": "smith@abc.com",
+        "firstName": "Smith",
+        "lastName": "joe",
+        "idType": "Aadhar",
+        "customerAddress": {
+            "address_id": 2,
+            "address": "Jayanagar",
+            "city": "Bangalore",
+            "pincode": "560041",
+            "state": "Karnataka"
+        },
+        "simDetails": {
+            "simId": 2,
+            "serviceNumber": "9876543211",
+            "simNumber": "9876543212341",
+            "simStatus": "inactive",
+            "simOffers": [
+                {
+                  "price": 99,
+                  "datalimit": 1.5,
+                  "smslimit": 100,
+                  "validity": 28
+                },
+                {
+                  "price": 149,
+                  "datalimit": 2,
+                  "smslimit": 120,
+                  "validity": 30
+                },
+                {
+                  "price": 299,
+                  "datalimit": 3,
+                  "smslimit": 100,
+                  "validity": 60
+                }
+              ]
+        },
+        "state": "Karnataka"
+    }
+]
